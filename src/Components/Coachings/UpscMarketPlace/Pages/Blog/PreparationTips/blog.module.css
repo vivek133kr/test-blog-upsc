@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+@media only screen and (max-width: 1000px) {
+  .tableHeadStyle {
+    margin-top: 30px;
+    width: 1600px;
+    table-layout: fixed;
+    text-align: "center";
+  }
+  .textLeftAlign {
+    text-align: left !important;
+  }
+  .blog-iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .topBlogDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .indexStyle {
+    cursor: pointer;
+    color: var(--primary-blue-800, #2075b3);
+  }
+  .addMargin1 {
+    margin-top: 20px;
+  }
+  .addMargin {
+    margin-top: 10px;
+  }
+  .blog-mainhead {
+    width: 90%;
+    margin-top: 50px !important;
+    display: flex !important;
+
+    flex-direction: row !important;
+    margin-bottom: 50px !important;
+  }
+  .blogHeaderColor {
+    background-color: var(--primary-blue-900, #195590) !important;
+    color: white !important;
+  }
+  .blog-td {
+    background: var(--grey-grey-100, #e9eaf0);
+    white-space: normal; /* Allow text to wrap onto a new line */
+    padding: 5px;
+    font-size: 12px !important;
+    word-break: break-word;
+    font-family: "Open Sans";
+  }
+
+  .blog-table-1 {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .blog-table-2 {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .blog-table-3 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .blog-tdHead {
+    color: var(--secondary-800, #181a2a);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .addBorderWhite {
+    border-left: 6px solid white !important;
+  }
+
+  .tableDes {
+    text-align: center;
+
+    margin: 0 auto;
+  }
+  .blog-subHead {
+    color: var(--secondary-800, #181a2a);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+  }
+
+  .blog-childSubHead {
+    color: var(--grey-grey-800, #363b47);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+
+    margin-top: 20px;
+  }
+  .blog-p {
+    color: var(--secondary-600, #3b3c4a);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+  }
+  .new-blog-header {
+    width: 100%;
+    text-align: justify;
+  }
+  .blog-index-head {
+    display: none;
+  }
+
+  .mobTableOfContent {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .blog-dateTime-head {
+    display: flex;
+    gap: 20px;
+    color: var(--secondary-500, #696a75);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 20px; /* 142.857% */
+  }
+  .blog-Time-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .blog-tag-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 15px;
+  }
+  .blog-tag-style {
+    border-radius: 6px;
+    display: flex;
+    padding: 6px 12px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--secondary-primary-orange-900, #c76523);
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 166.667% */
+  }
+
+  /* Additional style for selected row */
+  tr.selected {
+    background-color: #a6c5f7;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .mobTableOfContent {
+    display: none;
+  }
+  .blogHeaderColor {
+    background-color: var(--primary-blue-900, #195590) !important;
+    color: #fff;
+
+    /* Body/Body XXL/Body XXL 500 */
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+  }
+  .blog-iframe {
+    width: 560px;
+
+    height: 315px;
+  }
+
+  .new-blog-header {
+    width: 70%;
+    text-align: justify;
+    border-right: 1px solid #e9eaf0;
+    padding-right: 4%;
+  }
+
+  .topBlogDiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .indexStyle {
+    cursor: pointer;
+    color: var(--primary-blue-800, #2075b3);
+  }
+  .addMargin1 {
+    margin-top: 20px;
+  }
+  .addMargin {
+    margin-top: 10px;
+  }
+
+  .blog-mainhead {
+    width: 90%;
+    margin-top: 50px !important;
+    display: flex !important;
+
+    flex-direction: row !important;
+    margin-bottom: 50px !important;
+  }
+  .blog-td {
+    background: var(--grey-grey-100, #e9eaf0);
+
+
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .addBorderWhite {
+    border-left: 6px solid white !important;
+  }
+
+  .blog-table-1 {
+    width: 80%;
+    border: 1px solid blue;
+  }
+  .blog-table-2 {
+    width: 85%;
+    font-size: 16px;
+  }
+
+  .blog-table-3 {
+    width: 80%;
+    font-size: 16px;
+  }
+  .blog-tdHead {
+    color: var(--secondary-800, #181a2a);
+    font-family: "Open Sans";
+    font-size: 36px;
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .textLeftAlign {
+    text-align: left !important;
+  }
+  .tableDes {
+    text-align: center;
+
+    margin: 0 auto;
+  }
+  .blog-subHead {
+    color: var(--secondary-800, #181a2a);
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */
+  }
+
+  .blog-childSubHead {
+    color: var(--secondary-800, #181a2a);
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 116.667% */
+    margin-top: 20px;
+  }
+  .blog-p {
+    color: var(--secondary-600, #3b3c4a);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
+
+  .referencePara {
+    color: var(--secondary-600, #3b3c4a);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    background-color: whitesmoke;
+  }
+
+  .blog-tag-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 15px;
+  }
+  .blog-tag-style {
+    border-radius: 6px;
+    display: flex;
+    padding: 6px 12px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .blog-dateTime-head {
+    display: flex;
+    gap: 20px;
+    color: var(--secondary-500, #696a75);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 20px; /* 142.857% */
+  }
+  .blog-Time-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .blog-index-head {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding-left: 4%;
+  }
+  .blog-table-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0px;
+    align-items: center;
+    cursor: pointer;
+    gap: 8px;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid var(--grey-grey-100, #e9eaf0);
+  }
+  .blog-table-index-p {
+    display: flex;
+    padding: 14px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    color: var(--primary-primary-blue-700, #2385c7);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    cursor: pointer;
+  }
+
+  .tableHeadStyle {
+    margin-top: 30px;
+    width: 1600px;
+    table-layout: fixed;
+    text-align: "center";
+  }
+
+  /* Additional style for selected row */
+  tr.selected {
+    background-color: #a6c5f7;
+  }
+}

@@ -1,0 +1,53 @@
+{ "data" :
+ [
+ {
+    "Institute": "Institute 1",
+    "Image": "https://storage.googleapis.com/joshtalks-ias.appspot.com/vajiram.jpeg",
+    "InstituteName": "Vajiram and Ravi",
+    "Subtitle": "(Remove)",
+    "Courses": [
+      "General Studies - Foundation (10 months)",
+      "General Studies - Advanced (2 years)",
+      "College Foundation (10 months)",
+      "Optional Subjects",
+      "Test Series",
+      "Module Courses",
+      "Mentorship Programme",
+      "CSAT"
+    ],
+    "Fees": "Rs. 7,500 - 2,45,000 (Inclusive of GST)",
+    "Centres": ["Delhi", "Chennai"],
+    "Rating": "",
+    "NoofReviews": ""
+  },
+  {
+    "Institute": "Institute 2",
+    "Image": "https://storage.googleapis.com/joshtalks-ias.appspot.com/ksg.jpg",
+    "InstituteName": "KSG IAS - Khan Study Group",
+    "Courses": [
+      "Foundation Course",
+      "Advance Foundation Course",
+      "Test Series",
+      "Optional Subjects",
+      "NEEV - NCERT",
+      "Answer Writing"
+    ],
+    "Fees": "Foundation Course starting from Rs. 1,00,000 + GST",
+    "Centres": [
+      "Delhi - Vijay Nagar",
+      "Delhi - ORN",
+      "Jaipur",
+      "Bhopal",
+      "Indore",
+      "Patna",
+      "Bengaluru",
+      "Hyderabad",
+      "Kolkata",
+      "Imphal",
+      "Srinagar",
+      "Mumbai"
+    ],
+    "Rating": "",
+    "NoofReviews": ""
+  }]
+}

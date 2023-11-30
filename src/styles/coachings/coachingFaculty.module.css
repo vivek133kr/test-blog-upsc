@@ -1,0 +1,70 @@
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+@media only screen and (max-width: 1000px) {
+
+.facultyHead{
+ color: var(--grey-grey-700, #4E5566);
+/* Body/Body Small/Body Small 500 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 133.333% */
+}
+
+.cardTitle{
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.faccardAnswer{
+    color: #9B9393;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+}
+
+
+@media only screen and (min-width: 1001px) {
+
+.facultyHead{
+    color: #696969;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.cardTitle{
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.faccardAnswer{
+    color: #9B9393;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+}

@@ -1,0 +1,179 @@
+
+
+@media only screen and (min-width: 801px) {
+    .mainPaymentDiv{
+    min-height:90vh;
+
+     display:flex;
+        justify-content:center;
+        align-items:center;
+     
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+
+.childPaymentDiv{
+    border: 1px solid black;
+   height: 90%;
+   padding: 2%;
+   display: flex;
+     flex-direction: column;
+
+ 
+   align-items: center;
+    width: 38%;
+    border-radius: 25px;
+}
+.firstChildPaymentDiv{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.childPaymentPara{
+  color: #107BE5;
+text-align: center;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+
+}
+
+.linePaymentDiv{
+    width: 100%;
+height: 1.665px;
+margin-top: 1em;
+background: #EDEDED;
+}
+.linePaymentDivDotted{
+    border: none;
+  border-top: 1px dotted #000;
+  margin-bottom: 1em;
+}
+
+.transactionStyle{
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height:100%
+}
+
+.transactionDiv{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.5em;
+    justify-content: space-between;
+    
+}
+.transactionDivP{
+    color: #707070;
+
+font-size: 21.65px;
+font-style: normal;
+font-weight: 400;
+}
+
+.transactionDivPAns{
+    color: #121212;
+text-align: center;
+
+font-size: 21.65px;
+font-style: normal;
+font-weight: 600;
+line-height: 29.977px; /* 138.462% */
+}
+}
+@media only screen and (max-width: 800px) {
+    .mainPaymentDiv{
+   height:90vh;
+
+
+     display:flex;
+        justify-content:center;
+        align-items:center;
+     
+
+        margin-bottom: 20px;
+}
+.childPaymentDiv{
+  
+   height: 100%;
+   padding: 2%;
+   display: flex;
+     flex-direction: column;
+
+ 
+   align-items: center;
+    width: 95%;
+    border-radius: 25px;
+}
+.firstChildPaymentDiv{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.childPaymentPara{
+  color: #107BE5;
+text-align: center;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+
+}
+
+.linePaymentDiv{
+    width: 100%;
+height: 1.665px;
+margin-top: 1em;
+background: #EDEDED;
+}
+.linePaymentDivDotted{
+    border: none;
+  border-top: 1px dotted #000;
+}
+
+.transactionStyle{
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height:100%
+}
+
+.transactionDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.transactionDivP{
+    color: #707070;
+width: 50%;
+text-align: center;
+font-size: 21.65px;
+font-style: normal;
+font-weight: 400;
+}
+
+.transactionDivPAns{
+    color: #121212;
+text-align: center;
+width: 50%;
+font-size: 21.65px;
+font-style: normal;
+font-weight: 600;
+line-height: 29.977px; /* 138.462% */
+}
+}

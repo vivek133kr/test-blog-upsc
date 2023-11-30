@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+.top-card-div1{
+    display: flex;
+  border-radius: 8px;
+border: 1px solid var(--grey-grey-300, #B7BAC7);
+background: var(--pure-white, #FFF);
+    padding: 20px;
+
+   
+       background-color: white;
+}
+
+.top-card-div1 >div:nth-child(1){
+    margin-right: 20px;
+ border-radius: 8px;
+
+}
+
+
+
+.top-card-div1 > div:nth-child(1) > div > img{
+    width: 112px;
+ border-radius: 8px;
+}
+
+.top-card-div1 > div:nth-child(1)  > div > p{
+ color: var(--primary-primary-blue-700, #2385C7);
+
+/* Heading/Heading 2 */
+font-family: Poppins;
+font-size: 40px;
+text-align: center;
+font-style: normal;
+font-weight: 600;
+line-height: 48px; /* 120% */
+letter-spacing: -0.4px;
+}
+
+.top-card-div1 > div:nth-child(2){
+padding-right: 80px;
+}
+
+.topperHead{
+color: var(--grey-grey-600, #6E7485);
+/* Body/Body Large/Body Large 500 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 137.5% */
+}
+
+.topperAns{
+color: var(--pure-black, #000);
+/* Body/Body XXL/Body XXL 500 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+}
+
+
+.topper-prof-btn{
+    color: var(--secondary-orange-800, #D37927);
+/* Body/Body Large/Body Large 600 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+display: flex;
+align-items: center;
+font-weight: 600;
+line-height: 22px; /* 137.5% */
+}

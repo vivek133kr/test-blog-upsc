@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+@media only screen and (max-width: 1000px) {
+
+    .marketPlaceFooterTitleHead {
+        color: var(--pure-white, #FFF);
+        text-align: left;
+        font-feature-settings: 'calt' off;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+
+
+        font-weight: 700;
+        line-height: 150%; /* 21px */
+        letter-spacing: -0.14px;
+    }
+
+    .mobCoachingRating {
+        color: var(--pure-white, #FFF);
+
+        /* Body/Body TIny/Body Tiny 500 */
+        font-family: "Open Sans";
+        font-size: 10px;
+        padding: 0px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 10px; /* 100% */
+    }
+
+    .mobCoachingReview {
+        color: var(--grey-grey-900, #1D2026);
+
+        /* Body/Body Tiny/Body Tiny 500 */
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 10px; /* 100% */
+    }
+
+    .mobCoachingP1 {
+        color: var(--grey-grey-900, #1D2026);
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 27px */
+    }
+
+    .mobCoachingP2 {
+        color: var(--grey-grey-700, #4E5566);
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 143.5%; /* 14.35px */
+    }
+
+    .mobCoachingP3 {
+        color: var(--grey-grey-900, #1D2026);
+        font-family: "Open Sans";
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 10px; /* 125% */
+    }
+
+    .mobCoachingBtn {
+        color: var(--pure-white, #FFF);
+        /* Body/Body Small/Body Small 600 */
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 133.333% */
+    }
+
+    .mobCoachingP4 {
+        color: var(--grey-grey-900, #1D2026);
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px; /* 133.333% */
+    }
+
+    .mobCoachingCardDiv {
+        display: flex;
+    }
+
+    .coaching-list-btn {
+        border-radius: 4px;
+        border: 1px solid var(--grey-grey-700, #4E5566);
+        background: var(--grey-grey-50, #F5F7FA);
+
+        color: #4E5566;
+        height: 50px;
+        width: 100%;
+        /* Buttons/Button Small */
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px; /* 285.714% */
+        letter-spacing: -0.056px;
+        text-transform: capitalize;
+    }
+
+    .coaching-list-btn:nth-child(3) {
+        width: fit-content;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        border-radius: 4px;
+        border: 1px solid var(--grey-grey-700, #4E5566);
+        background: var(--grey-grey-50, #F5F7FA);
+
+        color: #4E5566;
+        height: 50px;
+        width: 100%;
+        /* Buttons/Button Small */
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px; /* 285.714% */
+        letter-spacing: -0.056px;
+        text-transform: capitalize;
+
+    }
+
+    .cardCoachingDiv {
+        padding: 20px;
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    .btnDiv {
+        order: 4;
+        gap: 20px;
+        display: flex;
+
+    }
+
+    .coursesDiv {
+        gap: 20px;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feesDiv {
+        gap: 20px;
+        order: 3;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutDiv {
+        gap: 20px;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coachingTitle {
+
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 28px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 85.714% */
+
+    }
+
+    .coachingOffice {
+        color: #7B7B7B;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+    }
+
+    .coachingOptionBtn {
+        color: #FFF;
+        border: 1px solid black;
+        font-family: "Open Sans";
+        text-transform: none;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .coachingRating {
+        color: #878787;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .coachingReview {
+        color: #DA862C;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .coachingCourses {
+        color: var(--grey-grey-600, #6E7485);
+        /* Body/Body Tiny/Body Tiny 500 */
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 10px; /* 100% */
+    }
+
+    .coachingCourseName {
+        display: flex;
+        padding: 4.448px 6px;
+        justify-content: center;
+        align-items: center;
+        gap: 11.119px;
+        border-radius: 6.672px;
+        border: 1px solid #EAEAEA;
+        background: #F7F7F7;
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 16.679px */
+        letter-spacing: -0.111px;
+    }
+
+    .mobCoachingCourseName {
+        display: flex;
+        padding: 4px 6px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 2px;
+        border: 1px solid var(--grey-grey-100, #E9EAF0);
+        background: var(--grey-grey-50, #F5F7FA);
+
+        color: var(--grey-grey-900, #1D2026);
+        /* Body/Body Tiny/Body Tiny 500 */
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px; /* 100% */
+    }
+
+    .coachingFees {
+        color: var(--grey-grey-600, #6E7485);
+        /* Body/Body Tiny/Body Tiny 500 */
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 10px; /* 100% */
+    }
+
+    .coachingFeeAmount {
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 180%; /* 24px */
+
+    }
+
+    .coachingAbout {
+        color: var(--grey-grey-600, #6E7485);
+        /* Body/Body Tiny/Body Tiny 500 */
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 10px; /* 100% */
+    }
+
+    .coachingAboutDetail {
+        color: var(--grey-grey-300, #B7BAC7);
+        /* Body/Body Small/Body Small 500 */
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 133.333% */
+    }
+
+    .coachingSelection {
+        color: #000;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 13.433px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 20.149px */
+        letter-spacing: -0.134px;
+    }
+
+    .coachingSelectionData {
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 36px */
+    }
+
+    .marketPlaceFooterTitle {
+        color: white;
+        text-align: left;
+        font-feature-settings: 'calt' off;
+        /* WF Body/Body Small */
+        cursor: pointer;
+        white-space: nowrap;
+
+
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+        letter-spacing: -0.14px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1001px) {
+
+    .marketPlaceFooterTitleHead {
+        color: var(--pure-white, #FFF);
+        text-align: left;
+        font-feature-settings: 'calt' off;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        margin-bottom: 10px;
+        font-weight: 700;
+        line-height: 150%; /* 21px */
+        letter-spacing: -0.14px;
+    }
+
+    .cardCoachingDiv {
+        padding-left: 40px;
+        display: flex;
+
+        flex-direction: column;
+        padding-right: 30px;
+    }
+
+    .btnDiv {
+        order: 4;
+        display: flex;
+        gap: 30px;
+    }
+
+    .coursesDiv {
+        gap: 70px;
+        order: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .feesDiv {
+        gap: 93px;
+        order: 2;
+        display: flex;
+
+        align-items: center;
+    }
+
+    .aboutDiv {
+        gap: 85px;
+        order: 3;
+        display: flex;
+
+    }
+
+    .coachingTitle {
+
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 28px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 85.714% */
+
+    }
+
+    .coachingOffice {
+        color: var(--grey-grey-500, #8C94A3);
+        /* Body/Body Large/Body Large 400 */
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 15px;
+
+        line-height: 24px; /* 150% */
+    }
+
+    .coachingOptionBtn {
+        color: #FFF;
+        border: 1px solid black;
+        font-family: "Open Sans";
+        text-transform: none;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .coachingRating {
+        color: #878787;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .coachingReview {
+        color: #DA862C;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .coachingCourses {
+        color: #656565;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 18px */
+    }
+
+    .coaching-list-btn {
+        border-radius: 8px;
+        border: 1px solid var(--grey-grey-700, #4E5566);
+        background: var(--grey-grey-100, #E9EAF0);
+
+        color: #4E5566;
+        height: 50px;
+        width: 50px;
+        /* Buttons/Button Small */
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px; /* 285.714% */
+        letter-spacing: -0.056px;
+        text-transform: capitalize;
+    }
+
+    .coaching-list-btn:nth-child(3) {
+        width: fit-content;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .coachingCourseName {
+        display: flex;
+        padding: 5px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 11.119px;
+        border-radius: 2px;
+        border: 1px solid #EAEAEA;
+        background: #F7F7F7;
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 11.119px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 16.679px */
+        letter-spacing: -0.111px;
+    }
+
+    .coachingFees {
+        color: #656565;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 18px */
+    }
+
+    .coachingFeeAmount {
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 180%; /* 24px */
+
+    }
+
+    .coachingAbout {
+        color: #656565;
+        font-family: "Open Sans";
+        font-size: 12px;
+
+        width: fit-content;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 18px */
+    }
+
+    .coachingAboutDetail {
+        color: #777;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 18px */
+    }
+
+    .coachingSelection {
+        color: #000;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 13.433px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 20.149px */
+        letter-spacing: -0.134px;
+    }
+
+    .coachingSelectionData {
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 36px */
+    }
+
+    .marketPlaceFooterTitle {
+        color: white;
+        text-align: center;
+        white-space: nowrap;
+        text-align: left;
+
+        font-feature-settings: 'calt' off;
+        /* WF Body/Body Small */
+        cursor: pointer;
+
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+        letter-spacing: -0.14px;
+    }
+
+
+}

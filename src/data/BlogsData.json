@@ -1,0 +1,45 @@
+{
+  "blogData": [
+    {
+      "name": "Answer Writing Tips",
+      "published_date": "November 1, 2023",
+      "tag": ["UPSC", "CSE"],
+      "imageUrl": "https://storage.googleapis.com/joshtalks-ias.appspot.com/image-for-answer-writing-tips.jpg",
+      "description": "Effective answer writing in UPSC exams is vital because it's how you showcase your understanding of subjects, manage time, and condense complex information into concise, well-structured responses.",
+      "url": "/upsc/preparation-tips/answer-writing"
+    },
+    {
+      "name": "Books for UPSC",
+      "published_date": "October 31, 2023",
+      "tag": ["UPSC", "CSE"],
+      "imageUrl": "https://storage.googleapis.com/joshtalks-ias.appspot.com/image-for-books-for-upsc.jpg",
+      "description": "Embarking on the journey to crack the UPSC Civil Services Examination requires a meticulous preparation strategy. A pivotal aspect of this strategy is selecting the right books that cover the expansive syllabus comprehensively while also providing insightful analysis to aid understanding. ",
+      "url": "/upsc/preparation-tips/books-for-upsc"
+    },
+    {
+      "name": "Optional Subject Tips",
+      "published_date": "November 1, 2023",
+      "tag": ["UPSC", "CSE"],
+      "imageUrl": "https://storage.googleapis.com/joshtalks-ias.appspot.com/image-for-how-to-prepare-for-optional-subject.jpg",
+      "description": "Selecting the right optional subject for UPSC can be a tough decision for aspirants. Your choice not only influences your success but also reflects your interests and strengths. In this overview, I will explore the process, sharing important factors for you to think about when picking your optional subject.&nbsp;",
+      "url": "/upsc/preparation-tips/how-to-pick-optional-subject"
+    },
+    {
+      "name": "How to Prepare for UPSC",
+      "published_date": "November 1, 2023",
+      "tag": ["UPSC", "CSE"],
+      "imageUrl": "https://storage.googleapis.com/joshtalks-ias.appspot.com/image-for-how-to-prepare-for-upsc.jpg",
+      "description": " To do well in the UPSC exam, which is considered one of the toughest in the world, the key to success is preparation. Although the exam can seem hard, with the right plan, hard work, determination, patience, and expert advice, anyone can succeed. In this detailed guide, I'll explain simple steps on how to prepare for UPSC.",
+
+      "url": "/upsc/preparation-tips/how-to-prepare-for-upsc"
+    },
+    {
+      "name": "Arpit Gupta - AIR 54",
+      "published_date": "November 1, 2023",
+      "tag": ["UPSC", "CSE"],
+      "imageUrl": "https://storage.googleapis.com/joshtalks-ias.appspot.com/image-of-arpit-gupta-air-54.png",
+      "description": "Arpit Gupta's journey is a remarkable tale of determination and resilience. Hailing from Sahjanwa, Gorakhpur, he was raised in a modest family, with his father employed by the Indian Railways. Despite successfully completing an engineering degree from IIT Roorkee and having a short stint as a financial market analyst, Arpit couldn't let go of his aspiration to become a civil servant.",
+      "url": "/upsc/toppers/2021/air-54-arpit-gupta"
+    }
+  ]
+}

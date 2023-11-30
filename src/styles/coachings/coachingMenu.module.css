@@ -1,0 +1,59 @@
+
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+.menuDiv > p.active {
+ 
+
+border-bottom: 4px solid #FFA135;
+color: #000;
+
+/* Body/Body Tiny/Body Tiny 500 */
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: 10px; /* 100% */
+
+
+}
+.menuDiv > p{
+    color: var(--grey-grey-600, #6E7485);
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+cursor: pointer;
+margin: 0px;
+padding: 0px;
+padding-bottom: 8px;
+}
+
+}
+
+@media only screen and (min-width: 1001px) {
+
+.menuDiv > p.active {
+ 
+
+border-bottom: 4px solid #FFA135;}
+.menuDiv > p{
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+cursor: pointer;
+margin: 0px;
+padding: 0px;
+padding-bottom: 5px;
+}
+
+}

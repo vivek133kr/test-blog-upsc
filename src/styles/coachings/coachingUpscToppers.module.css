@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@media only screen and (max-width: 1000px) {
+
+    .upscToppers-div2{
+
+        margin-top: 30px;
+
+    }
+    .upscToppers-div3{
+    margin-top: 20px;
+    }
+
+.upscToppers-p1{
+
+    color: var(--grey-grey-700, #4E5566);
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+letter-spacing: -0.14px;
+}
+
+.upscToppers-p2{
+    color: var(--grey-grey-400, #A1A5B3);
+margin-top: 10px;
+/* Body/Body XXL/Body XXL 400 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 160% */
+}
+
+}
+@media only screen and (min-width: 1001px) {
+ .upscToppers-div2{
+
+        margin-top: 56px;
+
+    }
+    .upscToppers-div3{
+    margin-top: 56px;
+    }
+.upscToppers-p1{
+    color: var(--grey-grey-700, #4E5566);
+
+/* Heading/Heading 3 */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 48px */
+letter-spacing: -0.32px;
+}
+
+.upscToppers-p2{
+    color: var(--grey-grey-400, #A1A5B3);
+
+/* Body/Body XXL/Body XXL 400 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+}

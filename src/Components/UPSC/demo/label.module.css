@@ -1,0 +1,55 @@
+.label-container {
+  display: flex;
+}
+
+.label-heading {
+  color: #170F49; /* Gray-800 color */
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 0.5rem;
+
+  @media (max-width: 992px) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (max-width: 400px) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+.label-text {
+  color: #3B332C; /* Gray-700 color */
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 21px;
+  width: 100%;
+
+  @media (max-width: 992px) {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (max-width: 400px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

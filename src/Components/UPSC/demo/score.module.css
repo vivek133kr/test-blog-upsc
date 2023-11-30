@@ -1,0 +1,68 @@
+.scoreContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.scoreTextContainer, .chartContainer {
+  width: 100%;
+}
+
+.scoreTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.scoreTextContent {
+  text-align: center;
+}
+
+.normalText {
+  color: #4A4A4A;
+  font-weight: normal;
+}
+
+.highlightedText {
+  color: #48BB78;
+  font-weight: medium;
+  font-size: 2.25rem;
+}
+
+.rankText {
+  color: #E53E3E;
+  font-weight: bold;
+}
+
+.chartContainer {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.chartContent {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .scoreContainer {
+    flex-direction: row;
+  }
+  
+  .scoreTextContainer, .chartContainer {
+    width: 40%;
+  }
+
+  .chartContainer {
+    width: 60%;
+    margin-top: 0;
+  }
+
+  .chartContent {
+    width: 60%;
+  }
+}

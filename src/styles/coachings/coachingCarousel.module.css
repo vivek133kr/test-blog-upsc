@@ -1,0 +1,128 @@
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@media only screen and (max-width: 1000px) {
+
+.carouselTitle{
+color: var(--grey-grey-700, #4E5566);
+/* Body/Body Small/Body Small 500 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
+}
+
+.cardDiv{
+  border-radius: 8px;
+border: 1px solid #ABC5E8;
+background: #F8FBFF;
+display: flex;
+align-items: center;
+height: fit-content;
+
+flex-direction: column;
+justify-content: center;
+}
+.cardTitle{
+  color: #000;
+font-family: Poppins;
+font-size: 9.437px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.cardInput{
+  color: #706F6F;
+font-family: Poppins;
+font-size: 7.752px;
+font-style: normal;
+font-weight: 500;
+
+
+line-height: normal;
+}
+.cardAns{
+  color: #000;
+font-family: Poppins;
+font-size: 8.614px;
+font-style: normal;
+font-weight: 400;
+
+margin-bottom: 20px;
+
+line-height: 150%; /* 30px */
+}
+
+.cardBtn{
+  color: #018DFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 157.143% */
+letter-spacing: -0.14px;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+
+.carouselTitle{
+  color: #696969;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.cardDiv{
+  border-radius: 8px;
+border: 1px solid #ABC5E8;
+background: #F8FBFF;
+display: flex;
+align-items: center;
+height: fit-content;
+
+flex-direction: column;
+justify-content: center;
+}
+.cardTitle{
+  color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.cardInput{
+  color: #706F6F;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.cardAns{
+  color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
+
+.cardBtn{
+  color: #018DFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 157.143% */
+letter-spacing: -0.14px;
+}
+}

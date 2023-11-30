@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@media only screen and (max-width: 1000px) {
+.menuDiv > p.active {
+ 
+
+border-bottom: 4px solid #FFA135;
+ color: black;
+/* Body/Body XL/Body XL 600 */
+font-family: "Open Sans";
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+cursor: pointer;
+margin: 0px;
+padding: 0px;
+padding-bottom: 15px;
+
+}
+.menuDiv > p{
+ color: var(--grey-grey-600, #6E7485);
+/* Body/Body XL/Body XL 600 */
+font-family: "Open Sans";
+width: fit-content;
+font-size: 10px;
+white-space: nowrap; 
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+cursor: pointer;
+margin: 0px;
+padding: 0px;
+padding-bottom: 15px;
+}
+
+.navEle{
+    font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+color: #6E7485;
+cursor: pointer;
+margin-top: 20px;
+
+font-weight: 500;
+line-height: 26px; /* 130% */
+}
+.navEle:hover{
+     font-family: "Open Sans";
+font-size: 20px;
+
+font-style: normal;
+color:black;
+/* Body/Body XXL/Body XXL 500 */
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+border-bottom: 4px solid #FFA135;
+padding-bottom: 10px;
+
+line-height: 26px; /* 130% */
+}
+
+}
+@media only screen and (min-width: 1001px) {
+
+.menuDiv > p.active {
+ 
+
+border-bottom: 4px solid #FFA135;
+ color: black;
+/* Body/Body XL/Body XL 600 */
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+cursor: pointer;
+margin: 0px;
+padding: 0px;
+padding-bottom: 15px;
+
+}
+.menuDiv > p{
+ color: var(--grey-grey-600, #6E7485);
+/* Body/Body XL/Body XL 600 */
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+cursor: pointer;
+margin: 0px;
+padding: 0px;
+padding-bottom: 15px;
+}
+
+.navEle{
+    font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+color: #6E7485;
+cursor: pointer;
+margin-top: 20px;
+
+font-weight: 500;
+line-height: 26px; /* 130% */
+}
+.navEle:hover{
+     font-family: "Open Sans";
+font-size: 20px;
+
+font-style: normal;
+color:black;
+/* Body/Body XXL/Body XXL 500 */
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+border-bottom: 4px solid #FFA135;
+padding-bottom: 10px;
+
+line-height: 26px; /* 130% */
+}
+
+}

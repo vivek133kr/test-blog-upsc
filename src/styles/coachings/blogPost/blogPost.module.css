@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+@media only screen and (min-width: 1000px) {
+ .coachingBlogDesktopP1{
+    display: none;
+ }
+
+  .mainCoachingBlogDiv{
+    cursor: pointer;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E9EAF0;
+  }
+ .coachingBlogDesktopInfo{
+    display: none;
+ }
+ .desktopBlogTag{
+    display: none;
+ }
+
+    .coachingBlogP1{
+        color: var(--grey-grey-600, #6E7485);
+font-family: "Open Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+
+    .coachingBlogP3{
+
+        padding: 4px 12px;
+        border-radius: 12px;
+background: var(--grey-grey-100, #E9EAF0);
+color: var(--grey-grey-800, #363B47);
+font-family: "Open Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .coachingBlogP4{
+        margin-left: 10px;
+color: var(--grey-grey-600, #6E7485);
+font-family: "Open Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+
+    .coachingBlogDiv2{
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+    }
+
+    .coachingBlogDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .coachingBlogP2{
+        color: var(--grey-grey-900, #1D2026);
+font-family: "Open Sans";
+font-size: 16px;
+padding-right: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 22.4px */
+    }
+}
+
+

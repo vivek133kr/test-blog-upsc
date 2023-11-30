@@ -1,0 +1,98 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@media only screen and (max-width: 1000px) {
+
+
+.FaqHead{
+ color: var(--grey-grey-700, #4E5566);
+/* Body/Body Small/Body Small 500 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+
+line-height: normal;
+border-radius: 7px 7px 0px 0px;
+
+background: #FFF;
+box-shadow: 0px 3px 10px 0px rgba(83, 143, 223, 0.20);
+}
+
+.faqQuestion{
+    width: 90%;
+    border-radius: 8px;
+    cursor: pointer;
+border: 1px solid #7B7B7B;
+background: #FFF;
+padding: 20px;
+}
+
+.faqQuestionHeader{
+color: var(--grey-grey-800, #363B47);
+/* Body/Body Small/Body Small 500 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 133.333% */
+}
+
+.faqQuestionAnswer{
+color: var(--grey-grey-800, #363B47);
+/* Body/Body Small/Body Small 400 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+}
+
+}
+@media only screen and (min-width: 1001px) {
+.FaqHead{
+  color: #696969;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 7px 7px 0px 0px;
+
+background: #FFF;
+box-shadow: 0px 3px 10px 0px rgba(83, 143, 223, 0.20);
+}
+
+.faqQuestion{
+    width: 90%;
+    border-radius: 8px;
+    cursor: pointer;
+border: 1px solid #7B7B7B;
+background: #FFF;
+padding: 20px;
+}
+
+.faqQuestionHeader{
+color: #0F0F0F;
+font-family: Poppins;
+font-size: 17.499px;
+font-style: normal;
+font-weight: 600;
+line-height: 26.249px; /* 150% */
+}
+
+.faqQuestionAnswer{
+color: #2F2D2D;
+font-family: Poppins;
+font-size: 15.555px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 23.332px */
+}
+
+}

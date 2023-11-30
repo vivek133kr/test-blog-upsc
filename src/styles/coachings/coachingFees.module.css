@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media only screen and (max-width: 1000px) {
+
+.FeesThead{
+    background-color:  var(--primary-blue-900, #195590);;
+    color: #FFF;
+
+/* Body/Body XXL/Body XXL 500 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 130% */
+}
+
+.first2ndCol{
+ 
+text-align: left;
+color: var(--grey-grey-800, #363B47);
+/* Body/Body XXL/Body XXL 500 */
+font-family: Poppins;
+font-size: 10px;
+
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+}
+
+.feesTable{
+    width:100%;
+
+ 
+    border-right: 2px solid #F4F6FF;
+border-left: 2px solid #F4F6FF;
+
+}
+.feesRow{
+    border-right: 2px solid #F4F6FF;
+border-left: 2px solid #F4F6FF;
+text-align: center;
+padding: 10px;
+
+}
+
+.feesHead{
+color: var(--grey-grey-700, #4E5566);
+/* Body/Body Small/Body Small 500 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
+}
+
+.feesYear{
+    color: #696969;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+margin-top: 50px;
+margin-bottom: 30px;
+font-weight: 500;
+line-height: normal;
+}
+
+.feesRow:nth-child(1){
+    width: 599px;
+}
+}
+
+@media only screen and (min-width: 1001px) {
+
+.FeesThead{
+    background-color:  var(--primary-blue-900, #195590);;
+    color: #FFF;
+
+/* Body/Body XXL/Body XXL 500 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 130% */
+}
+
+.first2ndCol{
+ 
+text-align: left;
+color: var(--grey-grey-800, #363B47);
+/* Body/Body XXL/Body XXL 500 */
+font-family: Poppins;
+font-size: 20px;
+
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+}
+
+.feesTable{
+    width:100%;
+
+ 
+    border-right: 2px solid #F4F6FF;
+border-left: 2px solid #F4F6FF;
+
+}
+.feesRow{
+    border-right: 2px solid #F4F6FF;
+border-left: 2px solid #F4F6FF;
+text-align: center;
+padding: 20px;
+
+}
+
+.feesHead{
+    color: #696969;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.feesYear{
+    color: #696969;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+margin-top: 50px;
+margin-bottom: 30px;
+font-weight: 500;
+line-height: normal;
+}
+
+.feesRow:nth-child(1){
+    width: 599px;
+}
+}

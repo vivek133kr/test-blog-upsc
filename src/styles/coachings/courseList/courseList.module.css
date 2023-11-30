@@ -1,0 +1,91 @@
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+.courseList_p1{
+color: var(--grey-grey-700, #4E5566);
+
+/* Heading/Heading 3 */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 48px */
+letter-spacing: -0.32px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-item {
+  margin: 0 20px;
+}
+
+.page-link {
+color: var(--grey-grey-700, #4E5566);
+text-align: center;
+  padding: 10px 20px;
+
+/* Body/Body XXL/Body XXL 600 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+}
+
+.active + .page-item .page-link {
+ border-radius: 8px;
+  padding: 10px 20px;
+background: var(--grey-grey-100, #E9EAF0);
+color: var(--grey-grey-700, #4E5566);
+text-align: center;
+
+/* Body/Body XXL/Body XXL 600 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+
+}
+.prev-item, .next-item {
+  font-weight: bold;
+margin: 0 30px;
+  height: 40px;
+  width: fit-content;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+
+}
+
+.active .page-link {
+  border-radius: 8px;
+ padding: 10px 20px;
+background: var(--grey-grey-800, #363B47);
+color: var(--pure-white, #FFF);
+text-align: center;
+/* Body/Body XXL/Body XXL 600 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+
+}
+.courseList_p2{
+    color: var(--grey-grey-400, #A1A5B3);
+
+/* Body/Body XXL/Body XXL 400 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+
+font-weight: 400;
+line-height: 32px; /* 160% */
+}

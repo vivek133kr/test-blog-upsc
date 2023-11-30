@@ -1,0 +1,36 @@
+
+@media only screen and (max-width: 1000px) {
+.topper-list-btn{
+    border-radius: 8px;
+border: 1px solid var(--grey-grey-700, #4E5566);
+background: var(--grey-grey-100, #E9EAF0);
+color:#4E5566;
+width: 100%;
+/* Buttons/Button Small */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 285.714% */
+letter-spacing: -0.056px;
+text-transform: capitalize;
+}
+}
+
+@media only screen and (min-width: 1001px) {
+.topper-list-btn{
+      border-radius: 8px;
+border: 1px solid var(--grey-grey-700, #4E5566);
+background: var(--grey-grey-100, #E9EAF0);
+color:#4E5566;
+
+/* Buttons/Button Small */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 285.714% */
+letter-spacing: -0.056px;
+text-transform: capitalize;
+}
+}

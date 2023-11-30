@@ -1,0 +1,126 @@
+.custom-answer {
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dfe4e8;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #474747;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.custom-answer.selected {
+  background-color: #107BE5;
+  /* background: linear-gradient(#ed4757, #dd4c75); */
+  color: #fff;
+}
+
+.custom-answer input {
+  display: none;
+}
+
+.custom-answer label {
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.custom-answer input+label span {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid #cdd1d9;
+  border-radius: 32px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+.custom-answer input:checked+label span {
+  /* background: linear-gradient(#ed4757, #dd4c75); */
+  color: #474747;
+}
+
+.label {
+  cursor: pointer;
+}
+
+
+button.buttons-group {
+  width: 160px;
+  height: 45px;
+  display: inline-block;
+  background-color: #0365c7;
+  border-color: #27adb9;
+  text-align: center;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+button.buttons-group:hover {
+  background-color: #0274e5;
+  border-color: #dd4c76;
+}
+
+button.buttons-group:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button.buttons-group:disabled:hover {
+  background-color: #025BB2;
+  border-color: #dd4c76;
+}
+
+button.finish-btn{
+  width: auto;
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #ed4757;
+  font-size: 14px;
+  color: #999;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  background: #f07736;
+  color: #fff
+}
+
+button.finish-btn:hover {
+  color: #fff;
+  background: #f25f10;
+  border-color: #b7313f
+}
+
+
+@media (max-width: 768px) {
+  .custom-answer {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .custom-answer label {
+    padding: 8px 0px 8px 0px;
+  }
+  .custom-answer input+label span {
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+  }
+  button.buttons-group {
+    width: 140px;
+    height: 35px;
+    font-size: 12px;
+  }
+  button.finish-btn{
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}

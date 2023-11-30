@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+
+ .mainSyllabusInfoDiv{
+
+      width: 100%;
+          background-color: transparent;
+          margin-top: 30px;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+
+ }
+ 
+ .recentPostHead{
+    color: var(--grey-grey-900, #1D2026);
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+ }

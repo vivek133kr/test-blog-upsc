@@ -1,0 +1,166 @@
+.subject-dropbox {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 12px 24px 0px #14132a0a, 0px -2px 4px 0px #14132a05,
+    0px 3px 14px 0px #4939ff08;
+  display: flex;
+  padding-inline: 8%;
+  padding-block: 2%;
+  position: relative;
+
+  /* Responsive styles for screens up to 768px */
+  @media screen and (max-width: 768px) {
+    /* Adjust the styles for smaller screens */
+    /* Example: */
+    padding-inline: 6%;
+    padding-block: 2%;
+  }
+
+  /* Responsive styles for screens up to 480px */
+  @media screen and (max-width: 480px) {
+    /* Adjust the styles for even smaller screens */
+    /* Example: */
+    padding-inline: 4%;
+    padding-block: 2%;
+    /* ... */
+  }
+
+  @media screen and (max-width: 280px) {
+    /* Adjust the styles for even smaller screens */
+    /* Example: */
+    padding-inline: 1%;
+    padding-block: 0%;
+    /* ... */
+  }
+}
+
+.subject-dropbox.closed {
+  border-radius: 18px 18px 0px 0px;
+}
+
+.subject-dropbox.open {
+  border-radius: 18px;
+}
+
+.subject-marks {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.subject-container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 88%;
+  margin-left: 6%;
+
+  /* Responsive styles for screens up to 768px */
+  @media screen and (max-width: 768px) {
+    /* Adjust the styles for smaller screens */
+    /* Example: */
+    width: 92%;
+    margin-left: 4%;
+  }
+
+  /* Responsive styles for screens up to 480px */
+  @media screen and (max-width: 480px) {
+    /* Adjust the styles for even smaller screens */
+    /* Example: */
+    width: 92%;
+    margin-left: 4%;
+  }
+}
+
+
+.frame {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.subject {
+  color: #212224;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+
+  /* Responsive styles for screens up to 768px */
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }
+
+  /* Responsive styles for screens up to 480px */
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 280px) {
+    font-size: 18px;
+  }
+}
+
+.element {
+  color: transparent;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 1%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+  }
+
+  /* Responsive styles for screens up to 480px */
+  @media screen and (max-width: 480px) {
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 280px) {
+    font-size: 20px;
+  }
+}
+
+.span {
+  color: #107be5;
+}
+
+.question-container {
+  align-items: flex-start;
+  background-color: #f2f9ff;
+  border-radius: 0 0 14px 14px;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-block: 4%;
+  padding-inline: 8%;
+
+  /* Responsive styles for screens up to 768px */
+  @media screen and (max-width: 768px) {
+    /* Adjust the styles for smaller screens */
+    /* Example: */
+    padding-block: 3%;
+    padding-inline: 4%;
+  }
+
+  /* Responsive styles for screens up to 480px */
+  @media screen and (max-width: 480px) {
+    /* Adjust the styles for even smaller screens */
+    /* Example: */
+    padding-block: 2%;
+    padding-inline: 2%;
+    /* ... */
+  }
+}

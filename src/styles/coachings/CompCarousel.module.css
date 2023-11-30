@@ -1,0 +1,54 @@
+.parent {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.carousel-container {
+  /* Add any styles you want */
+}
+
+.button-container {
+ 
+}
+
+.carousel-button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-button {
+ 
+  color: #ABC5E8;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 12px;
+  cursor: pointer;
+  height: 50px;
+}
+
+
+.slider img {
+  width: 100%;
+  border-radius:10px;
+}
+.slider{
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.react-multi-carousel-list {
+padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button{
+border: none;
+background: rgb(255, 68, 68);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+background: rgb(255, 68, 68) !important;
+}
